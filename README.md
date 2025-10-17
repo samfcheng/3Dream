@@ -1,38 +1,13 @@
-# sv
+# 3Dream — Dream it. Draw it. Hold it.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+3Dream uses cutting-edge AI to turn any sketch into a 3D model that you can customize and transform into a real, manufactured toy. From imagination to creation in just a few clicks.
 
-## Creating a project
+## Development
 
-If you're seeing this, you've probably already done this step. Congrats!
+So, how does it work?
+1: 3Dream takes a file upload of a sketch from the user
+2: The app uses the Gemini API to generate a photo rendering from the sketch
+3: After approval and edits from the user, we use the [Tripo AI API](https://www.tripo3d.ai/) to generate a 3D model
 
-```sh
-# create a new project in the current directory
-npx sv create
+**Underlying Technology:** Svelte Kit, Node.js, SASS, Gemini, Tripo AI, Vercel
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
