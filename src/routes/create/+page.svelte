@@ -72,7 +72,7 @@
 
 <main class="creator-main">
   <aside class="sidebar">
-    <img src="/3dream.svg" alt="logo" class="logo"/>
+    <a href="./"><img src="/3dream.svg" alt="logo" class="logo"/></a>
     <div class="steps">
       <button on:click={() => {selected_step = 1}} class:selected={selected_step == 1}>1: Upload — Upload a sketch</button>
       <button on:click={() => {selected_step = 2}} class:selected={selected_step == 2} disabled={max_step < 2}>2: Imagine — Create a rendering</button>
