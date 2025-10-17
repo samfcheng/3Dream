@@ -7,14 +7,15 @@
   <header>
     <div class="top-nav">
       <img src="/3dream.svg" alt="logo" class="logo"/>
+      <a href="/create" class="link">Start Now</a>
     </div>
     <div class="main-content">
       <h1>Sketch to real toy in under a minute</h1>
-      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.</p>
-      <a href="/create" class="button">Get Started ➡️</a>
+      <p>3Dream uses cutting-edge AI to turn sketches into 3D models you can edit, customize, and transform into a real, manufactured toy.</p>
+      <a href="/create" class="button">Get Started <span>➡️</span></a>
     </div>
     <div class="bottom-main">
-      <p>Made in LA by Isaac, Arnav, & Sam</p>
+      <p>Made in LA by <a href="https://www.linkedin.com/in/isaac-chan-6bb485242/" target="_blank" class="link">Isaac</a>, <a href="https://www.linkedin.com/in/arnav-bansal-660ba835a/" target="_blank" class="link">Arnav</a>, & <a href="https://x.com/samfcheng" target="_blank" class="link">Sam</a></p>
     </div>
   </header>
   <aside>

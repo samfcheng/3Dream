@@ -40,7 +40,7 @@ export async function POST({ request }) {
             }
           },
           {
-            text: 'Transform this image into a stylized version.'
+            text: 'Turn sketch into floating 3d rendering of a action figure, white background, no base'
           }
         ]
       }
