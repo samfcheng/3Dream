@@ -121,7 +121,9 @@
             </span>
           </div>
         {:else}
-          <div class="placeholder">No output yet</div>
+          <div class="placeholder">
+            An error was encountered. Ensure to submit a standard image file, with a size under 4.5MB.
+          </div>
         {/if}
         <button disabled={!outputImageUrl} on:click={stepThree} class="button">Looks good? <span>➡️</span></button>
       </div>
