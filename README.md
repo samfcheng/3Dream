@@ -1,6 +1,8 @@
 # 3Dream — Dream it. Draw it. Hold it.
 
-3Dream uses cutting-edge AI to turn any sketch into a 3D model that you can customize and transform into a real, manufactured toy. From imagination to creation in just a few clicks.
+Millions of kids create drawings every day, but most of that creativity is lost. Parents have no meaningful way to preserve or celebrate their child’s imagination. 3Dream solves this by transforming any sketch into a tangible toy through a simple online platform. With one click, families can upload a drawing, view the AI-generated 3D model, and order a custom-made, kid-safe toy delivered right to their door.
+
+Made by Sam Cheng, Isaac Chan, Arnav Bansal.
 
 ## Development
 
@@ -10,4 +12,3 @@ So, how does it work?
 3: After approval and edits from the user, we use the [Tripo AI API](https://www.tripo3d.ai/) to generate a 3D model
 
 **Underlying Technology:** Svelte Kit, Node.js, SASS, Gemini, Tripo AI, Vercel
-
